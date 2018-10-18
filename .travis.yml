@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 18 15:14:34 2018
+
+@author: gk
+"""
+
+yml
+language: python
+python:
+    - "3.6"
+before_install:
+    - pip install pytest pytest-cov
+script:
+    - pytest
